@@ -1,0 +1,311 @@
+<html>
+<head>
+	<title>PLETHORA</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="tabletop1.3.4.js"></script>
+    <meta charset="UTF-8">
+   
+</head>	
+
+<style>
+
+ h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+h2{
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+}
+h3{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+}
+h4{
+  font-family: 'Poiret One', cursive;
+  font-size: 15px
+}
+
+table{
+	text-align: center;
+}
+
+a{
+	margin-right: 50px;
+}
+
+#logo{
+	text-align: center;
+}
+
+#menu{ 
+    margin-bottom: auto;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+  }
+
+ #Programs{
+
+    margin-top: auto;
+    margin-bottom: 100px;
+  }
+  #Desc{
+    margin-top: auto;
+    margin-bottom: 150px;
+
+}
+  #Home{
+    margin-top: auto;
+    margin-bottom: 100px;
+  }
+ 
+  #Resources{
+    margin-top: auto;
+    margin-bottom: 100px;
+  }
+
+  #header1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    background: rgba(112,210,235,1);
+background: -moz-linear-gradient(top, rgba(112,210,235,1) 0%, rgba(112,210,235,1) 22%, rgba(111,200,234,1) 26%, rgba(108,171,232,1) 38%, rgba(103,125,228,1) 57%, rgba(92,24,219,1) 99%, rgba(158,119,217,1) 99%, rgba(86,35,163,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(112,210,235,1)), color-stop(22%, rgba(112,210,235,1)), color-stop(26%, rgba(111,200,234,1)), color-stop(38%, rgba(108,171,232,1)), color-stop(57%, rgba(103,125,228,1)), color-stop(99%, rgba(92,24,219,1)), color-stop(99%, rgba(158,119,217,1)), color-stop(100%, rgba(86,35,163,1)));
+background: -webkit-linear-gradient(top, rgba(112,210,235,1) 0%, rgba(112,210,235,1) 22%, rgba(111,200,234,1) 26%, rgba(108,171,232,1) 38%, rgba(103,125,228,1) 57%, rgba(92,24,219,1) 99%, rgba(158,119,217,1) 99%, rgba(86,35,163,1) 100%);
+background: -o-linear-gradient(top, rgba(112,210,235,1) 0%, rgba(112,210,235,1) 22%, rgba(111,200,234,1) 26%, rgba(108,171,232,1) 38%, rgba(103,125,228,1) 57%, rgba(92,24,219,1) 99%, rgba(158,119,217,1) 99%, rgba(86,35,163,1) 100%);
+background: -ms-linear-gradient(top, rgba(112,210,235,1) 0%, rgba(112,210,235,1) 22%, rgba(111,200,234,1) 26%, rgba(108,171,232,1) 38%, rgba(103,125,228,1) 57%, rgba(92,24,219,1) 99%, rgba(158,119,217,1) 99%, rgba(86,35,163,1) 100%);
+background: linear-gradient(to bottom, rgba(112,210,235,1) 0%, rgba(112,210,235,1) 22%, rgba(111,200,234,1) 26%, rgba(108,171,232,1) 38%, rgba(103,125,228,1) 57%, rgba(92,24,219,1) 99%, rgba(158,119,217,1) 99%, rgba(86,35,163,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70d2eb', endColorstr='#5623a3', GradientType=0 );
+  }
+
+  #tippage{
+    font-size: 20px;
+
+  }
+
+  #homepage{
+    font-size: 25px;
+  }
+
+</style>
+
+<body>
+
+  <div data-role="page" id="Home">
+    <div data-role="menu" id="menu">
+      <a href="#Home">HOME</a>
+      <a href="#Programs">PROGRAMS AND INTERNSHIPS</a>
+      <a href="#Resources">RESOURCES</a>
+      <a href="#Tips">TIPS ON APPLYING</a>
+    </div>
+
+    <div data-role="header" id = "header1">
+    <h1>HOME</h1>
+	</div></br>
+
+	<div id="logo">
+    <image src="logo.png" width="500px">
+    </div>
+
+    <div id = "homepage">
+	    <p>Created by Jozlin Franco, Michelle Kwon, and Christy Chan, Plethora is a website designed to provide internships and programs to high school students that are exploring and/or pursuing computer science. It allows students to comment about their experience with each program, add programs that they recommend, and give insight to future students.
+	    </p>
+	 </div>
+
+  </div>
+
+  <div data-role="page" id="Programs">
+    <div data-role="menu" id="menu">
+      <a href="#Home">HOME</a>
+      <a href="#Programs">PROGRAMS AND INTERNSHIPS</a>
+      <a href="#Resources">RESOURCES</a>
+      <a href="#Tips">TIPS ON APPLYING</a>
+    </div>
+
+ <div data-role="header" id = "header1">
+    <h1>PROGRAMS AND INTERNSHIPS</h1>
+</div></br>
+
+	<table style="width:100%" id = "newform">
+
+	</table></br>
+
+	<div data-role = "collapsible">
+    <h2>Add a Program</h2>
+    <iframe src="https://docs.google.com/forms/d/17eoCRMhvsVDxjOdVCbzQ1PzLJPBZOIchoWh_vt-5S-k/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  </div>
+
+  </div>
+
+	<div data-role="page" id="Resources">
+	    <div data-role="menu" id="menu">
+	      <a href="#Home">HOME</a>
+	      <a href="#Programs">PROGRAMS AND INTERNSHIPS</a>
+	      <a href="#Resources">RESOURCES</a>
+	      <a href="#Tips">TIPS ON APPLYING</a>
+	    </div>
+
+	<div data-role="header" id = "header1">
+	    <h1>RESOURCES</h1>
+	</div></br>
+
+	    <p>Great websites to help you learn and sharpen your computer science skills. Click on each one to learn more about it and access its link (click on the .</p>
+
+    <div data-role="collapsible">
+        <h2>Code</h2>
+        <a href = "https://code.org/" target = "_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Code.org_logo.svg/2000px-Code.org_logo.svg.png" alt="code.org" width="300"></a>
+        <br></br>
+        <p>Code is a non-profit that is created to expand the learning of computer science by offering hour of code lessons, code studio, and local classes to anyone.</p>
+    </div>
+
+    <div data-role="collapsible">
+      <h2>Coursera</h2>
+        <a href="https://www.coursera.org/courses?categories=cs-ai,cs-programming,cs-systems,cs-theory,infotech"
+          target="_blank"> 
+          <img src="http://agaveapi.co/slides/gateways-to-the-80-percent/img/coursera_logo.png" alt="Coursera logo" width="300"> </a>
+        <br></br>
+        <p>Coursera allows anyone to take free college courses online in any topics, such as art, science, economics, mathematics, and of course, computer science. Online courses include videos presented by college professors. Some courses might include homework and test.</p>
+    </div>
+
+    <div data-role="collapsible">
+      <h2>Khan Academy</h2>
+        <a href="https://www.khanacademy.org/"
+          target="_blank"> 
+          <img src=http://vignette4.wikia.nocookie.net/education/images/f/fd/Khan_Academy.png_(3683%C3%972832).png/revision/latest?cb=20120721073950 alt="Khan Academy Logo" width="300"> </a>
+        <br></br>
+        <p>Khan Academy provides interactive and online video for many subjects such as math, science, test prep, and computing. Must get an account to access their content.</p>
+    </div>
+
+    <div data-role="collapsible">
+      <h2>Scratch</h2>
+        <a href="https://scratch.mit.edu/" target = "_blank">
+          <img src=http://img2.wikia.nocookie.net/__cb20140921011025/logopedia/images/1/1f/Scratch-logo-outline.png alt="Scratch Logo" width="300"> </a>
+        <br></br>
+        <p>Scratch created by MIT Media Lab allows many to program interactive games and animations with simple comuting tools. It allows young people to think logically using only small tools to create something big.</p>
+    </div>
+
+  </div>
+
+  <div data-role="page" id="Desc">
+    <div data-role="menu" id="menu">
+      <a href="#Home" onclick="location.reload()">HOME</a>
+      <a href="#Programs" onclick="location.reload()">PROGRAMS AND INTERNSHIPS</a>
+      <a href="#Resources" onclick="location.reload()">RESOURCES</a>
+      <a href="#Tips" onclick="location.reload()">TIPS ON APPLYING</a>
+    </div>
+
+     <div data-role="header" id = "header1">
+    <h1>DESCRIPTION</h1>
+	</div></br>
+
+	<a href="#Programs" onclick="location.reload()"><---Go Back to All Programs</a>
+
+    <div id="something">
+    </div>
+    	<p id="addedcomments"></p>
+      <h3>Add a comment!</h3>
+        <form id="newcomment" action="form_action.asp">
+            Name: <input type="text" name="name" value="">
+            Comment: <input type="text" name="comment" value="">
+        </form>
+        <input type="button" value="Submit" data-theme="b" data-inline="true" onclick="addcomment()">
+   </div>
+
+    <div data-role="page" id="Tips">
+	    <div data-role="menu" id="menu">
+	      <a href="#Home">HOME</a>
+	      <a href="#Programs">PROGRAMS AND INTERNSHIPS</a>
+	      <a href="#Resources">RESOURCES</a>
+	      <a href="#Tips">TIPS ON APPLYING</a>
+	  </div>
+
+	  <div data-role = "header" id = "header1">
+	    <h1>TIPS ON APPLYING</h1>
+	  </div></br>
+
+	  <div id = "tippage">
+	    <p>-Be honest and be yourself.
+	    <br></br>
+	    -Do not procrastinate a couple of days before the deadline.
+	    <br></br>
+	    -Have someone proofread your essays and forms.
+	    <br></br>
+	    -Rejection can be a pain in the butt. Don't give up; there are many more out there.
+	    <br></br>
+	    -Do not apply to one just for the college application. Apply only for your learning and yourself.
+	    <br></br>
+	    -And most of all, GOOD LUCK!!! Love, Jozlin, Michelle, and Christy
+	    </p>
+	  </div>
+	</div>
+
+</body>
+
+	<script>
+	window.onload = function() { init() };
+
+	var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1sWiaHJtsvHD5bCUSYXje-SraDkdKCYk59Fe4LxuVQGw/pubhtml';
+
+	function init() {
+		    Tabletop.init( { key: public_spreadsheet_url,
+		                     callback: showInfo, //showInfo is called when this function is done
+		                     simpleSheet: true } ) //described in documents
+		  }
+
+		  function showInfo(data, tabletop) { //data is json version of our spreadsheet
+		    displayAllPrograms(data);
+		  }
+		//end copied code
+		        
+		var displayAllPrograms = function(programs){
+		  for(var i = 0; i < programs.length; i++){
+		    var program = programs[i];
+		    var table = "tr>"
+		    displayProgram(program,i);
+		  };
+
+		};
+
+		var displayProgram = function(program,newid,table){
+		  var htmlString = '<'+table+'<td><a href="#Desc">\
+		            <img src="' + program.logourl +'" alt="program" width="300" id = "' + newid + 'pic" onclick="showdiv('+newid+')">\
+		            </a></'+table+'</td>';
+		  var fordesc = '<div id="'+newid+'"><h1><a href="' + program.link + '" target="_blank">'+program.program+'</a></h1>\
+                                                    <h2>Submitted by: '+program.name+'</h3>\
+                                                    <h2>Description:</h2> <p>' + program.comment + '</p>\
+                                                    <h3>Comments:</h3>\
+                                                    </div>';
+		  $("#newform").append(htmlString);
+		  $("#something").append(fordesc);
+		  document.getElementById(newid).style.display = "none";
+		};
+
+		document.getElementById("Desc").style.visibility = "hidden"; //GET RID OF DESCRIPTION PAGE
+
+
+		var showdiv = function(id){
+			document.getElementById("Desc").style.visibility = "visible";
+			document.getElementById(id).style.display = "inline";
+			
+		}
+
+		var addcomment = function(){
+		  var comname = newcomment.elements[0].value;
+		  var newcom = newcomment.elements[1].value;
+
+		  var existing = document.getElementById("addedcomments").innerHTML;
+		  var comstring = '<p>' +comname+': '+newcom+'</p>';
+		  document.getElementById("addedcomments").innerHTML = existing + comstring;
+		  
+		  };
+
+	</script>
+
+</html>
